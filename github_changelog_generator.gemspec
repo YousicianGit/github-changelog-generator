@@ -12,7 +12,7 @@ Gem::Specification.new do |spec|
   spec.authors = ["Petr Korolev", "Olle Jonsson"]
   spec.email = "sky4winder+github_changelog_generator@gmail.com"
 
-  spec.summary = "Script, that automatically generate changelog from your tags, issues, labels and pull requests."
+  spec.summary = "Script, that automatically generate changelog from your tags, issues, labels and pull requests. 5.7. Taneli changed retry multiplier"
   spec.description = "Changelog generation has never been so easy. Fully automate changelog generation - this gem generate changelog file based on tags, issues and merged pull requests from Github issue tracker."
   spec.homepage = "https://github.com/github-changelog-generator/Github-Changelog-Generator"
   spec.license = "MIT"

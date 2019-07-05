@@ -417,7 +417,7 @@ Make sure, that you push tags to remote repo via 'git push --tags'"
         on: [Octokit::Forbidden],
         tries: MAX_FORBIDDEN_RETRIES,
         base_interval: sleep_base_interval,
-        multiplier: 1.0,
+        multiplier: 1.5,
         rand_factor: 0.0,
         on_retry: retry_callback
       }
